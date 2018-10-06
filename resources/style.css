@@ -14,6 +14,7 @@ header {
   z-index: 2;
   background-color: white;
   font-family: sans-serif;
+  margin-bottom: 30px;
 }
 
 #logo-container {
@@ -49,6 +50,8 @@ header {
     z-index: -1;
     display: flex;
     flex-direction: row;
+    position: relative;
+    padding-top: 75px;
     }
 
 #left-col {
@@ -58,8 +61,8 @@ header {
   margin: 25px 25px;
   align-items: center;
   justify-content: center;
-  font-size: 13pt;
   font-weight: 550;
+  font-family: Georgia;
 }
 
 #phishy {
@@ -77,8 +80,8 @@ header {
   position: absolute;
   padding: 45px 5px 60px 5px;
   margin-left: 10px;
+  font-size: 30pt;
   font-weight: bold;
-  font-size: 45px;
   text-align: left;
   color: white;
 }
@@ -122,16 +125,68 @@ header {
 
 #center-col {
 width: 300px;
+display: flex;
+flex-direction: column;
+margin: 0px 25px;
+align-items: center;
+font-family: Georgia;
+font-weight: 500;
 }
 
 #cat-img {
 background-image: url("./images/img-cat-ceo.png");
 height: 300px;
-position: re
+position: relative;
+}
+
+#cat-img h1 {
+  text-align: center;
+  padding-top: 100px;
+  position: absolute;
+  color: white;
+  margin: 10px 10px;
+}
+
+#right-col
+{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+  align-items: center;
+  }
+
+#bites-col img {
+margin-bottom: 0px;
+padding-bottom: 0px;
 
 }
 
-aside li{
+#bites-col h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#bites-col li {
+  list-style: none;
+  height: 50px
+  margin: 2px 2px;
+  padding: 10px 10px;
+  background-color: whitesmoke;
+  border-bottom: 1px solid black;
+  width: 225px;
+  font-size: 12pt;
+
+}
+
+#bites-col a {
+  text-decoration: none;
+  color: dimgray;
+  font-family: sans-serif;
+  font-size: 10pt;
+}
+
+aside li {
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
@@ -139,6 +194,8 @@ aside li{
 
 footer {
   width: 100%;
+  padding-top: 125px;
+  padding-bottom: 125px;
   background-color: mediumaquamarine;
   text-align: center;
   font-family: sans-serif;
